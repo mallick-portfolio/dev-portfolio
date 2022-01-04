@@ -1,0 +1,56 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+h1{
+  font-size: 50px;
+}
+h2{
+  font-size: 40px;
+}
+h3{
+  font-size: 32px;
+}
+h4 {
+  font-size: 24px;
+}
+.flexiblity {
+  display: flex;
+}
+.section-margin{
+  margin-bottom: 120px;
+}
+.welcome-area {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.welcome-area .half-width {
+  width: 50%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 40px;
+}
+.welcome-area .author-name{
+  color: orange;
+}
+.welcome-area .hire-btn{
+  text-decoration: none;
+  padding: 10px 40px;
+  background-image: linear-gradient(orange, tomato);
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 30px;
+  display: inline-block;
+}
+.welcome-area .hire-btn:hover{
+  background-image: linear-gradient(cyan, gray);
+  color: #444;
+  transition: 2s;
+}
+.half-width img{
+  max-width: 80%;
+  margin-top: 40px;
+}
