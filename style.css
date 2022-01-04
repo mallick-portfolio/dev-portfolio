@@ -62,3 +62,16 @@ h4 {
   background-repeat: no-repeat;
   background-position: right;
 }
+.experience-in h4 {
+  color: orange;
+}
+.full-stack, .frond-end {
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 40px #444;
+}
+.full-stack {
+  border-image: linear-gradient(cyan, tomato);
+  border-left: 7px solid;
+  border-image-slice: 1;
+}
